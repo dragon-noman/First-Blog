@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Blog | Sign In</title>
+    <!--Tab Icon Link-->
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/social-networks-and-media-flat-icons/136/Social_Media_Socialmedia_network_share_socialnetwork_network-22-512.png">
+    <style>
+        .logo { border-radius: 30px; margin: 10px 0 0 20px; }
+        .container {
+            border-radius: 10px;
+            background-color: #f2f2f2;
+            padding: 25px;
+            width: 600px;
+            margin-left: 25%;
+        }
+        input[type=email], input[type=password] {
+            width: 90%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        button {
+            background-color: #3faa42;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3e6fa7;
+        }
+        .reset { margin-left: 30px;}
+        a.submit {text-decoration: none; color: rgb(255, 255, 255);}
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="logo.jpg" class="logo" width="60px" height="60px" alt="Pro Blog Logo" title="Click to Explore"></a>
+    </div>
+    <h1 align='center'>Sign In</h1>
+    <h2 align='center'>Don't have an account? | <a href="signUp.html">Create One</a></h2>
+    <div class="container">
+        <form action="">
+            <label for="email"><b>Enter your email:</b></label> <br>
+            <input type="email" name="email" id="email" placeholder="sample@gmail.com"> <br><br>
+            <label for="password"><b>Password:</b></label> <br>
+            <input type="password" name="password" id="password"> <br><br>
+            <button><b><a href="index.html" class="submit">SUBMIT</a></b></button>
+            <button type="reset" class="reset"><b>Reset</b></button>
+        </form>
+    </div>
+</body>
+</html>
